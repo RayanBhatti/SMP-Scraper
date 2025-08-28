@@ -69,9 +69,8 @@ It uses **AWS (serverless backend)** for ingestion/storage and a **Next.js + Tai
 
 ## Architecture Overview
 
-```
+<img width="1447" height="607" alt="image" src="https://github.com/user-attachments/assets/762d1670-77b7-4c54-9220-26eab92b209e" />
 
-```
 
 ---
 
