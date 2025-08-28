@@ -116,7 +116,7 @@ export default function Page() {
                 S&P 500 Top 10
               </h1>
               <p className="text-slate-600 mt-1">
-                Real-time market data with 10- refresh
+                Real-time market data with 30 Sec refresh
               </p>
             </div>
           </div>
