@@ -1,0 +1,21 @@
+{
+  "name": "asx-scraper-infra",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p .",
+    "deploy": "npm run build && dotenv -e .env -- npx cdk deploy --require-approval never",
+    "destroy": "dotenv -e .env -- npx cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.152.0",
+    "constructs": "10.3.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "dotenv-cli": "^10.0.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
+  }
+}
