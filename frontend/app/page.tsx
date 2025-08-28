@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import './globals.css'
+import { FaGithub } from "react-icons/fa";
 
 const API_BASE = 'https://xy2z7y9tl0.execute-api.ap-southeast-2.amazonaws.com';
 
@@ -115,9 +116,15 @@ export default function Page() {
               <h1 className="text-4xl font-bold text-slate-800 tracking-tight">
                 S&P 500 Top 10
               </h1>
-              <p className="text-slate-600 mt-1">
-                Real-time market data with 30 Sec refresh
-              </p>
+              <a
+                href="https://github.com/RayanBhatti/SMP-Scraper"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-200 hover:bg-gray-300 text-slate-800 font-medium rounded-lg transition-colors shadow"
+              >
+                <FaGithub className="w-5 h-5" />
+                Source Code
+              </a>
             </div>
           </div>
 
